@@ -235,3 +235,4 @@ console.log (frutas[0]); //abacaxi
 console.log (frutas[4]); //maçã
 let vitamina = (frutas[0]) + ' e ' + (frutas[2]);
 console.log(vitamina);
+
