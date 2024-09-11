@@ -208,3 +208,23 @@ for (let indexDaJuliana = 0; indexDaJuliana < amizadesDaJuliana.length; indexDaJ
 }
 
 console.log(amizadesEmComum);
+
+//--------------------------------------------------------Exercícios--------------------------------------------------------------
+/*
+Item por item 🔁
+Utilize uma estrutura de repetição para exibir cada item de um array.
+
+Observe a estrutura abaixo:
+
+const numeros = [1, 2, 3, 4, 5];
+
+A constante numeros é um array de números. Sendo assim:
+
+Crie um algoritmo que utiliza estrutura de repetição;
+Exiba no console cada item de dentro do array.
+*/
+
+const numeros = [1, 2, 3, 4, 5];
+    for (let indexNumeros = 0; indexNumeros < numeros.length; indexNumeros = indexNumeros + 1) {
+        console.log(indexNumeros);
+    }
