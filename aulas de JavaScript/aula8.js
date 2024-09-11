@@ -267,3 +267,9 @@ Use a estrutura de repetição for na constante listaDeFrutas atualizada para ex
 
 const listaDeFrutas = ['banana', 'maçã', 'mamão', 'goiaba'];
 console.log(listaDeFrutas);
+console.log('');
+listaDeFrutas.push('manga');
+    for (let produtos = 0; produtos < listaDeFrutas.length; produtos = produtos +1) {
+        console.log(listaDeFrutas[produtos]);
+    }
+    console.log('');
