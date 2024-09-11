@@ -295,6 +295,6 @@ function mediaDosNumeros(arrayNumeros){
             soma = soma + arrayNumeros[index];
         }
         media = soma / arrayNumeros.length;
-        return 'A média dos números é de ' + media;
+        return media;
 }
 console.log(mediaDosNumeros(1, 2, 3, 4, 5));
