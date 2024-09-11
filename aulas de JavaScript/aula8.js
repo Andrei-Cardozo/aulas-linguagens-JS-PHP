@@ -312,7 +312,7 @@ const multiplicadores = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 const multiplique = [];
         for (let multiplicadorzin = 0; multiplicadorzin < multiplicador.length; multiplicadorzin = multiplicador + 1) {
             for (let multiTres = 0; multiTres < multiplicadores.length; multiTres = multiplicadores + 1){
+                const resultado = multiplicador[multiplicadorzin] * multiplicadores[multiTres];
+                console.log(multiplicador + ' x ' + multiplicadores + ' = ' + resultado); 
             }
         }
-multiplique.push(multiplicadores);
-console.log(multiplicadorzin + ' x ' + multiplique);
