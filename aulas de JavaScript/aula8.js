@@ -251,3 +251,19 @@ Armazene a soma dos valores na variável somaTotal e exiba o resultado no consol
         somaTotal += valoresProdutos[valores];  
     }
 console.log('A soma dos valores é de R$ ' + somaTotal);
+
+/*
+Adicione um item no array com push ➕
+James decidiu fazer uma salada de frutas e precisa comprar banana, maçã, mamão e goiaba. Ele criou uma lista com JavaScript para guardar esses valores:
+
+const listaDeFrutas = ['banana', 'maçã', 'mamão', 'goiaba'];
+
+James esqueceu de adicionar ‘manga’ em sua lista e precisa da sua ajuda para resolver esse problema:
+
+Utilize o método push para adicionar o valor 'manga' ao final do array listaDeFrutas;
+
+Use a estrutura de repetição for na constante listaDeFrutas atualizada para exibir todas as frutas da lista.
+*/
+
+const listaDeFrutas = ['banana', 'maçã', 'mamão', 'goiaba'];
+console.log(listaDeFrutas);
