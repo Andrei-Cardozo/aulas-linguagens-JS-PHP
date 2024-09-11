@@ -131,7 +131,7 @@ const listaMercado = [
 const carrinho = [];
 
      for (let posicaoNaLista = 0; posicaoNaLista < listaMercado.length; posicaoNaLista = posicaoNaLista + 1) {
-        if (listaMercado[posicaoNaLista] === 'Maçã' || listaMercado[posicaoNaLista] === 'Banana') {
+        if (listaMercado[posicaoNaLista] === ' Maçã' || listaMercado[posicaoNaLista] === ' Banana') {
             carrinho.push(listaMercado[posicaoNaLista]);
         }
      }
