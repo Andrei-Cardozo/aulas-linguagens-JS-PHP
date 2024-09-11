@@ -120,18 +120,18 @@ Vá para o próximo item da lista;
 Verifique se é uma fruta; caso seja, adicione ao seu carrinho.
 */
 const listaMercado = [
-    ' Maçã', 
-    ' Gengibre', 
-    ' Miojo', 
-    ' Biscoito/Bolacha', 
-    ' Banana', 
-    ' Feijão Carioquinha', 
-    ' Pasta de Dente',
+    'Maçã', 
+    'Gengibre', 
+    'Miojo', 
+    'Biscoito/Bolacha', 
+    'Banana', 
+    'Feijão Carioquinha', 
+    'Pasta de Dente',
 ];
 const carrinho = [];
 
      for (let posicaoNaLista = 0; posicaoNaLista < listaMercado.length; posicaoNaLista = posicaoNaLista + 1) {
-        if (listaMercado[posicaoNaLista] === ' Maçã' || listaMercado[posicaoNaLista] === ' Banana') {
+        if (listaMercado[posicaoNaLista] === 'Maçã' || listaMercado[posicaoNaLista] === 'Banana') {
             carrinho.push(listaMercado[posicaoNaLista]);
         }
      }
