@@ -125,6 +125,7 @@ const carinho = [];
      for (let posicaoNaLista = 0; posicaoNaLista < listaMercado.length; posicaoNaLista = posicaoNaLista + 1) {
         if (listaMercado[posicaoNaLista] === 'Maçã' || listaMercado[posicaoNaLista] === 'Banana') {
             carinho.push(listaMercado[posicaoNaLista]);
+            console.log(carinho);
         }
      }
 
