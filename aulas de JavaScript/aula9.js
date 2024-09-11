@@ -290,7 +290,6 @@ De olho na dica 👀 : Use uma estrutura de repetição for para percorrer o arr
 function mediaDosNumeros(array){
     let somaMedia = 0;
     const arrayNumeros = [];
-    array.push(arrayNumeros);
     console.log(arrayNumeros);
     console.log(' ');
         for (let media = 0; media < arrayNumeros.length; media = media + 1) {
