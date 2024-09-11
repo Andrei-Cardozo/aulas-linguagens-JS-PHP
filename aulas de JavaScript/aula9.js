@@ -47,5 +47,33 @@ O objetivo da nossa função é cumprimentar uma pessoa. Para isso, podemos escr
 
 function cumprimentar() {
    return 'Olá Andrei';
-};
+}
+
 cumprimentar();
+
+/*
+Tente executar esse código no console de seu navegador.
+
+Nada acontece, não é mesmo?
+
+Isso ocorre porque a função não foi invocada. A invocação nada mais é do que executar a função, ou seja, chamá-la. Primeiro, o JavaScript vai ler a declaração da função, e só quando invocarmos a função é que o bloco de código será executado.
+
+Para invocar a função é necessário colocar o nome dela seguido de parênteses: imprimeSaudacao();.
+A saudação não foi retornada e o resultado foi undefined. Por que você acha que isso aconteceu?
+
+Quando uma função é chamada, ela executa o bloco de código de dentro dela e nos retorna uma informação, mas, para isso, é preciso informar para a função qual o retorno esperado utilizando a palavra return. 
+Agora sim, a mensagem foi exibida! Isso porque o return é responsável por devolver a informação definida, ou seja, 'Olá, Gisele!'.
+
+⚠ Atenção: O return interrompe a execução da função, isto é, ao utilizar o return, qualquer código abaixo dele dentro do mesmo bloco de código não vai ser executado. Observe:
+*/
+
+function imprimeSaudacao() {
+    const saudacao = 'Olá, Gisele!';
+  
+    console.log('Eu sou um console e vou aparecer!');
+    return saudacao;
+  
+    console.log('Eu sou um console e não vou aparecer 😭!');
+  }
+  
+  imprimeSaudacao();
