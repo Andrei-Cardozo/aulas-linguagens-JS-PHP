@@ -191,3 +191,18 @@ function imprimeSaudacao(nome, sobrenome, idade) {
   const sobrenomeDaPessoa = 'Santin';
   
   console.log(imprimeSaudacao(nomeDaPessoa, sobrenomeDaPessoa, 25));
+
+  //Note que você passou as variáveis nomeDaPessoa e sobrenomeDaPessoa, que são do tipo string, e também a idade, 25, que é do tipo number. Isso significa que a função pode receber dados de vários tipos!
+
+  //Hora de testar 💻: Cumprimente e exiba a idade de mais 3 pessoas:
+
+  function imprimeSaudacao(nome, sobrenome, idade) {
+    const saudacao = 'Olá, ' + nome + ' ' + sobrenome + '!';
+    const exibeIdade = 'Você tem ' + idade + ' anos.';
+  
+    return saudacao + ' ' + exibeIdade;
+  }
+  
+  console.log(imprimeSaudacao('Alberto', 'Cavalcanti', 85));
+  console.log(imprimeSaudacao('Cleyton', 'Oliveira', 32));
+  console.log(imprimeSaudacao('Sandra', 'Cardoso', 58));
