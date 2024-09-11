@@ -287,14 +287,14 @@ Crie uma função chamada mediaDosNumeros que recebe como parâmetro um array de
 
 De olho na dica 👀 : Use uma estrutura de repetição for para percorrer o array.
 */
-function mediaDosNumeros(array){
-    let somaMedia = 0;
-    const arrayNumeros = [];
-    console.log(arrayNumeros);
+function mediaDosNumeros(arrayNumeros){
+    let soma = 0;
+    let media = 0; 
     console.log(' ');
-        for (let media = 0; media < arrayNumeros.length; media = media + 1) {
-            somaMedia += arrayNumeros[media] / array;
+        for (let index = 0; index < arrayNumeros.length; index = index + 1) {
+            soma = soma + arrayNumeros[index];
         }
-        return 'A média dos números é de ' + somaMedia;
+        media = soma / arrayNumeros.length;
+        return 'A média dos números é de ' + media;
 }
 console.log(mediaDosNumeros(1, 2, 3, 4, 5));
