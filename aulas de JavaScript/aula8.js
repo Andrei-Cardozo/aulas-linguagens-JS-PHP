@@ -229,6 +229,7 @@ const numeros = [1, 2, 3, 4, 5];
         console.log(numeros [indexNumeros]);
     }
 
+    console.log('')
 /*
 Calcule os preços 🏷
 Você foi a uma lanchonete e gostaria de comprar um sanduíche, uma batata frita e um refrigerante, mas não sabia se seu dinheiro seria suficiente. Para descobrir se você tem saldo para pagar pelo pedido, some os valores dos produtos:
