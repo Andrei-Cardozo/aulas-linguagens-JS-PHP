@@ -247,3 +247,11 @@ function mostrarFrase(frase){
     return frase;
 };
 console.log(mostrarFrase('Vamo que Vamo'));
+
+//Saudação, terráqueo 🛸
+//Crie uma função saudacao que recebe um parâmetro nome e mostre uma mensagem de saudação, por exemplo: 'Olá, Julia!'
+function saudacao(nome){
+    const mFrase = 'Olá, ' + nome + '!';
+    return mFrase;
+};
+console.log(saudacao(Andrei));
