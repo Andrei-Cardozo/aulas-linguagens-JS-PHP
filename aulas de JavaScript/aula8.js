@@ -171,10 +171,19 @@ const amizadesDoAdilson = ['Leticia', 'Guilherme', 'Cleyton', 'Ivan', 'Vinicius'
 const amizadesEmComum = [];
 
 */
+/*
+Terceiro: Neste momento, você já está percorrendo o primeiro array (amizadesDaJuliana). Agora precisa percorrer também o segundo array (amizadesDoAdilson).
+Atenção ⚠️: Você precisa realizar as comparações entre os amizadesDaJuliana e os amizadesDoAdilson. Para que isso seja feito, é necessário que o segundo for esteja dentro do primeiro. Você irá pegar um amigo da Juliana e comparar com todas as amizades do Adilson em cada repetição do primeiro for.
+*/
+
 const amizadesDaJuliana = ['Erickson', 'Cleyton', 'Laura', 'Claudio', 'Sheila', 'Vinicius', 'Leticia'];
 const amizadesDoAdilson = ['Leticia', 'Guilherme', 'Cleyton', 'Ivan', 'Vinicius', 'Gisele'];
 const amizadesEmComum = [];
 
 for (let indexDaJuliana = 0; indexDaJuliana < amizadesDaJuliana.length; indexDaJuliana = indexDaJuliana + 1) {
+  console.log('Pessoa Amiga da Juliana');
   console.log(amizadesDaJuliana[indexDaJuliana]);
+  for (let indexDoAdilson = 0; indexDoAdilson < amizadesDoAdilson.length; indexDoAdilson = indexDoAdilson + 1) {
+    console.log('Pessoa amiga do Adilson: ' + amizadesDoAdilson[indexDoAdilson]);
+  }
 }
