@@ -79,3 +79,61 @@ for (let index = 10; index >= 1; index = index - 1){
     console.log(index);
 }
 console.log('UHULLLLLLLLLLLLLLLLLLLL FELIZ ANO NOVOOOOOOOO 🍾🎆🎆✨');
+
+/*
+O for funciona da seguinte forma:
+
+Primeiro passo: Inicia o loop, declarando a variável index com o valor 10;
+
+Segundo passo: A condição a ser verificada é se o index é maior ou igual a 1;
+
+Terceiro passo: Se a condição verificada for verdadeira, ou seja, o valor de index ser maior ou igual a 1, então o console.log(index) é executado;
+
+Quarto passo: Após a execução do console.log, o valor do index é decrementado; Após o decremento do index, é verificada a condição a ser cumprida novamente, ou seja, se o index é maior ou igual a 1.
+
+Quinto passo: Quando a condição a ser cumprida for falsa, nesse caso quando o index for menor que 1, então o loop é finalizado e o restante do código é executado.
+
+Você conseguiu fazer o seu primeiro for!!
+*/
+
+/*
+Bora aplicar esse novo conceito em uma situação mais recorrente? 🤔
+
+Imagine que hoje você vai ao mercado e decidiu fazer uma lista de compras para não esquecer do que precisa comprar.
+
+maçã
+gengibre
+miojo
+biscoito/bolacha
+banana
+feijão carioquinha
+pasta de dente
+Você organizou sua lista para que as frutas sejam pegas logo que chegar ao mercado, afinal quer escolher as mais fresquinhas 🍇🍉🍌
+
+Pegue 1 item da lista;
+Verifique se é uma fruta; caso seja, adicione ao seu carrinho;
+Vá para o próximo item da lista;
+Verifique se é uma fruta; caso seja, adicione ao seu carrinho;
+Vá para o próximo item da lista;
+Verifique se é uma fruta; caso seja, adicione ao seu carrinho;
+Vá para o próximo item da lista;
+Verifique se é uma fruta; caso seja, adicione ao seu carrinho.
+*/
+const listaMercado = [' Maçã', ' Gengibre', ' Miojo', ' Biscoito/Bolacha', ' Banana', ' Feijão Carioquinha', ' Pasta de Dente'];
+const carinho = [];
+
+     for (let posicaoNaLista = 0; posicaoNaLista < listaMercado.length; posicaoNaLista = posicaoNaLista + 1) {
+        if (listaMercado[posicaoNaLista] === 'Maçã' || listaMercado[posicaoNaLista] === 'Banana') {
+            carinho.push(listaMercado[posicaoNaLista]);
+        }
+     }
+
+/*
+Anota aí 📣 : É possível usar o operador de incremento ++ em substituição à estrutura posicaoNaLista = posicaoNaLista + 1, ficando da seguinte forma: ++ posicaoNaLista. Mas esse operador adiciona somente uma unidade ao número.
+
+Você está quase completando esse for! Agora só falta colocar o código dentro dele!! 🥳
+
+Precisamos verificar se o item é uma fruta e, se for, adicionamos no carrinho. Dessa forma, vamos precisar usar uma estrutura condicional. Ao pegarmos o item pelo índice usando listaDeCompras[posicaoNaLista], perguntamos “é uma fruta da nossa lista?”. Se for, colocamos no nosso carrinho; se não for, não fazemos nada.
+
+Relembrando 🧠 : Para adicionar um item em um array, podemos usar o .push(). 😉
+*/
