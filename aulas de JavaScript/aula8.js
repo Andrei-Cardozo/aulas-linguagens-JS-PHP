@@ -151,3 +151,30 @@ Relembrando 🧠 : Para adicionar um item em um array, podemos usar o .push(). �
 */
 
 // --------------------------------------------------------------Utilizando duas estruturas de repetição for aninhadas--------------------------------------------
+
+/*
+ocê já entrou no perfil de uma pessoa na rede social e viu que vocês possuem amizades em comum? Suponha que você precise desenvolver um recurso com essa mesma finalidade para uma empresa. Como você faria?
+
+Se você pensou em utilizar o for, está no caminho certo! Mas se prepare, porque vai usar dois!!
+
+Mas calma, vamos fazer um passo a passo e dará tudo certo! Beleza? 👍
+
+Primeiro: Simule as listas de amizades de duas pessoas para poder realizar as comparações.
+
+const amizadesDaJuliana = ['Erickson', 'Cleyton', 'Laura', 'Claudio', 'Sheila', 'Vinicius', 'Leticia'];
+const amizadesDoAdilson = ['Leticia', 'Guilherme', 'Cleyton', 'Ivan', 'Vinicius', 'Gisele'];
+    
+De olho na dica 👀 : Também será necessária uma lista para armazenar as amizades em comum.
+
+const amizadesDaJuliana = ['Erickson', 'Cleyton', 'Laura', 'Claudio', 'Sheila', 'Vinicius', 'Leticia'];
+const amizadesDoAdilson = ['Leticia', 'Guilherme', 'Cleyton', 'Ivan', 'Vinicius', 'Gisele'];
+const amizadesEmComum = [];
+
+*/
+const amizadesDaJuliana = ['Erickson', 'Cleyton', 'Laura', 'Claudio', 'Sheila', 'Vinicius', 'Leticia'];
+const amizadesDoAdilson = ['Leticia', 'Guilherme', 'Cleyton', 'Ivan', 'Vinicius', 'Gisele'];
+const amizadesEmComum = [];
+
+for (let indexDaJuliana = 0; indexDaJuliana < amizadesDaJuliana.length; indexDaJuliana = indexDaJuliana + 1) {
+  console.log(amizadesDaJuliana[indexDaJuliana]);
+}
