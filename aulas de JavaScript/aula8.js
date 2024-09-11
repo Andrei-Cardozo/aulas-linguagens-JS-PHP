@@ -228,3 +228,25 @@ const numeros = [1, 2, 3, 4, 5];
     for (let indexNumeros = 0; indexNumeros < numeros.length; indexNumeros = indexNumeros + 1) {
         console.log(numeros [indexNumeros]);
     }
+
+/*
+Calcule os preços 🏷
+Você foi a uma lanchonete e gostaria de comprar um sanduíche, uma batata frita e um refrigerante, mas não sabia se seu dinheiro seria suficiente. Para descobrir se você tem saldo para pagar pelo pedido, some os valores dos produtos:
+
+Sanduíche - R$ 10;
+Batata frita - R$ 12;
+Refrigerante - R$ 8.
+Os valores dos produtos foram salvos dentro de um array na variável valoresProdutos:
+
+const valoresProdutos = [10, 12, 8]; // array com o preço dos produtos
+let somaTotal = 0; // valor total
+
+Utilize a estrutura de repetição for para somar os valores;
+Armazene a soma dos valores na variável somaTotal e exiba o resultado no console.
+*/
+ const valoresProdutos = [10, 12, 8];
+ let somaTotal;
+    for (let valores = 0; valores < valoresProdutos.length; valores = valores + 1) {
+        somaTotal = valoresProdutos[valores];  
+    }
+console.log(somaTotal)
