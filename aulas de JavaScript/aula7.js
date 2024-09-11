@@ -283,10 +283,10 @@ const sabores = ['Chocolate', 'Morango', 'Açaí', 'Creme', 'Flocos'];
 const cobertura = ['Chocolate', 'Morango', 'Doce de Leite'];
 
 console.log(sabores);
-console.log(sabores.length);
+console.log('Quantidade de sabores ' + sabores.length);
 
 console.log(cobertura);
-console.log(cobertura.length);
+console.log('Quantidade de coberturas ' + cobertura.length);
 
 /*
 Trocando posições dos itens de um array ↔️
@@ -326,11 +326,13 @@ let lista =[1, 2, 3, 4, 5]
 let inverter = true;
 let listaInvertida = [];
 
-const listaJogoFav = ['  Quebra-Cabeça', '  Tetris', '  Sudoku', '  Xadrez', '  Batalha Naval'];
-
-    if (inverter === true) {
-        listaInvertida = ['  Batalha Naval', '  Xadrez', '  Sudoku', '  Tetris', '  Quebra-Cabeça'];
+    if (inverter) {
+        listaInvertida[0] = lista [4];
+        listaInvertida[1] = lista [3];
+        listaInvertida[2] = lista [2];
+        listaInvertida[3] = lista [1];
+        listaInvertida[4] = lista [0];
         console.log(listaInvertida);
     } else {
-        console.log(listaJogoFav);
+        console.log(lista);
     }
