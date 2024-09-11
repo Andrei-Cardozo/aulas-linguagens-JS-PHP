@@ -250,4 +250,4 @@ Armazene a soma dos valores na variável somaTotal e exiba o resultado no consol
     for (let valores = 0; valores < valoresProdutos.length; valores = valores + 1) {
         somaTotal += valoresProdutos[valores];  
     }
-console.log('A soma dos valores é de ' + somaTotal)
+console.log('A soma dos valores é de R$ ' + somaTotal);
