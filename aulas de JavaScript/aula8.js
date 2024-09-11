@@ -308,11 +308,10 @@ O console deve ter um retorno como esse:
 Quando for desenvolver o segundo for utilize os números de 1 a 9. 😉
 */
 const multiplicador = [3, 7];
-const multiplicadores = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-const multiplique = [];
-        for (let multiplicadorzin = 0; multiplicadorzin < multiplicador.length; multiplicadorzin = multiplicador + 1) {
-            for (let multiTres = 0; multiTres < multiplicadores.length; multiTres = multiplicadores + 1){
-                const resultado = multiplicador[multiplicadorzin] * multiplicadores[multiTres];
-                console.log(`${multiplicador[multiplicadorzin]} x ${multiplicadores[multiTres]} = ${resultado}`); 
+let resultado;
+        for (let multiplicadorzin = 0; multiplicadorzin < multiplicador.length; multiplicadorzin = multiplicadorzin + 1) {
+            for (let multiTres = 0; multiTres <= 9; multiTres = multiTres + 1){
+                resultado = multiplicador[multiplicadorzin] * multiTres;
+                console.log(multiplicador[multiplicadorzin] + ' x ' + multiTres + ' = ' + resultado); 
             }
         }
