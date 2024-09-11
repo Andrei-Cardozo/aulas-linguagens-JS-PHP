@@ -280,3 +280,22 @@ function clientePedido(numeroPedido) {
     }
 }
 console.log(clientePedido(5));
+
+/*
+Fazendo média 🔢
+Crie uma função chamada mediaDosNumeros que recebe como parâmetro um array de números chamado arrayNumeros e retorna a média desses números.
+
+De olho na dica 👀 : Use uma estrutura de repetição for para percorrer o array.
+*/
+function mediaDosNumeros(array){
+    let somaMedia = 0;
+    const arrayNumeros = [];
+    arrayNumeros.push(array);
+    console.log(arrayNumeros);
+    console.log(' ');
+        for (let media = 0; media < arrayNumeros.length; media = media + 1) {
+            somaMedia += arrayNumeros[media] / arrayNumeros;
+        }
+        return 'A média dos números é de ' + somaMedia;
+}
+console.log(mediaDosNumeros(1, 2, 3, 4, 5));
