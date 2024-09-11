@@ -244,7 +244,6 @@ Crie uma função que exiba a frase: Vamo que vamo! 🚀
 Crie uma função mostrarFrase que retorne a frase ‘Vamo que vamo!’ quando chamada.
 */
 function mostrarFrase(frase){
-    const mFrase = 'Vamo que vamo!';
-    return mFrase;
+    return frase;
 };
-console.log(mostrarFrase(frase))
+console.log(mostrarFrase('Vamo que Vamo'));
