@@ -313,6 +313,6 @@ const multiplique = [];
         for (let multiplicadorzin = 0; multiplicadorzin < multiplicador.length; multiplicadorzin = multiplicador + 1) {
             for (let multiTres = 0; multiTres < multiplicadores.length; multiTres = multiplicadores + 1){
                 const resultado = multiplicador[multiplicadorzin] * multiplicadores[multiTres];
-                console.log(multiplicador + ' x ' + multiplicadores + ' = ' + resultado); 
+                console.log(`${multiplicador[multiplicadorzin]} x ${multiplicadores[multiTres]} = ${resultado}`); 
             }
         }
