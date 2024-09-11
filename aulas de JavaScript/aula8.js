@@ -247,6 +247,6 @@ Armazene a soma dos valores na variável somaTotal e exiba o resultado no consol
  const valoresProdutos = [10, 12, 8];
  let somaTotal;
     for (let valores = 0; valores < valoresProdutos.length; valores = valores + 1) {
-        somaTotal = valoresProdutos[valores];  
+        somaTotal += valoresProdutos[valores];  
     }
 console.log(somaTotal)
