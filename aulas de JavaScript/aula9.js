@@ -254,4 +254,4 @@ function saudacao(nome){
     const mFrase = 'Olá, ' + nome + '!';
     return mFrase;
 };
-console.log(saudacao(Andrei));
+console.log(saudacao('Andrei'));
