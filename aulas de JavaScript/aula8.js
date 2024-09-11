@@ -138,6 +138,8 @@ const carrinho = [];
 
      console.log(carrinho);
 
+     //AEEEE!! Você conseguiu fazer seu primeiro for utilizando uma estrutura condicional e percorrendo um array! Pode ter orgulho!!🥳🥳
+
 /*
 Anota aí 📣 : É possível usar o operador de incremento ++ em substituição à estrutura posicaoNaLista = posicaoNaLista + 1, ficando da seguinte forma: ++ posicaoNaLista. Mas esse operador adiciona somente uma unidade ao número.
 
@@ -147,3 +149,5 @@ Precisamos verificar se o item é uma fruta e, se for, adicionamos no carrinho. 
 
 Relembrando 🧠 : Para adicionar um item em um array, podemos usar o .push(). 😉
 */
+
+// --------------------------------------------------------------Utilizando duas estruturas de repetição for aninhadas--------------------------------------------
