@@ -35,7 +35,17 @@ O nome da função é o meio de identificá-la e, ao chamá-la, o JavaScript ent
 Os parênteses servem para que a função possa receber informações chamadas de parâmetro e possibilitam que a função utilize essas informações no bloco de código.
 Por exemplo, se você fosse desenvolver uma função que tivesse o objetivo de cumprimentar a pessoa que está executando o programa pelo nome, tal como ‘Olá, Gisele!’, como você faria?
 */
+
+/*
+Para isso, vamos quebrar a função em partes:
+
+Primeiro passo: iniciar com a palavra function; Segundo passo: dar um nome para a função, como, por exemplo, imprimeSaudacao; Terceiro passo: abrir e fechar parênteses (), que serão vazios no início, pois ainda não é necessário passar nenhuma informação para a função; Quarto passo: abrir chaves {, definir o bloco de código e fechar chaves }.
+
+O objetivo da nossa função é cumprimentar uma pessoa. Para isso, podemos escrever uma saudação como 'Olá, Gisele!':
+
+*/
+
 function cumprimentar() {
-    'Olá Andrei';
+   return 'Olá Andrei';
 };
 cumprimentar();
