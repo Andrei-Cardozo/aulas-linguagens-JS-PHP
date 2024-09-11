@@ -245,7 +245,7 @@ Utilize a estrutura de repetição for para somar os valores;
 Armazene a soma dos valores na variável somaTotal e exiba o resultado no console.
 */
  const valoresProdutos = [10, 12, 8];
- let somaTotal;
+ let somaTotal = 0;
     for (let valores = 0; valores < valoresProdutos.length; valores = valores + 1) {
         somaTotal += valoresProdutos[valores];  
     }
