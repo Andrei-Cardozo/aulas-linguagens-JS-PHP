@@ -1,1 +1,1 @@
-install php na maquina.
+install php na maquina.sw
