@@ -236,3 +236,18 @@ console.log (frutas[4]); //maçã
 let vitamina = (frutas[0]) + ' e ' + (frutas[2]);
 console.log(vitamina);
 
+/*Substituir e adicionar itens em um array 🔄
+Cleyton decidiu promover uma festa no final de semana, e até já possui uma lista de convidados definida:
+
+const convidados = ['Adilson', 'Claudio', 'Juliana', 'Vinícius'];
+Na sexta-feira a noite, ele lembrou de convidar mais três amigos: Laura, Guilherme e Leticia. Além disso, Juliana entrou em contato e cancelou sua presença.
+
+Crie um algoritmo que ajude Cleyton a manipular o array convidados para:
+
+Substituir o nome 'Juliana' por 'Laura';
+Adicionar 'Guilherme' e 'Leticia' no array.
+*/
+const convidadosFesta = ['Adilson', 'Claúdio', 'Juliana', 'Vinicius'];
+convidadosFesta[2] = 'Laura';
+convidadosFesta.push('Guilherme', 'Leticia');
+ console.log(convidadosFesta);
