@@ -309,5 +309,8 @@ Quando for desenvolver o segundo for utilize os números de 1 a 9. 😉
 */
 const multiplicador = [3, 7];
 const multiplicadores = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-            for (let multiTres = 0; multiTres < multiplicadores.length; multiTres = multiplicadores + 1)
-                console.log( multiTres + ' x ' + multiplicadores);
+const multiplique = [];
+            for (let multiTres = 0; multiTres < multiplicadores.length; multiTres = multiplicadores + 1){
+              multiplique.push(multiplicadores)
+              console.log(multiplicadores)
+            }
