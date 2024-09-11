@@ -269,7 +269,45 @@ const listaDeFrutas = ['banana', 'maçã', 'mamão', 'goiaba'];
 console.log(listaDeFrutas);
 console.log('');
 listaDeFrutas.push('manga');
-    for (let produtos = 0; produtos < listaDeFrutas.length; produtos = produtos +1) {
+    for (let produtos = 0; produtos < listaDeFrutas.length; produtos = produtos + 1) {
         console.log(listaDeFrutas[produtos]);
     }
     console.log('');
+
+/*
+Multiplique números: faça a tabuada do 3 e do 7 🧑‍🏫
+João precisa ajudar sua filha Maria a estudar a tabuada do 3 e do 7, e teve a ideia de usar a tecnologia ao seu favor, contudo precisa da sua ajuda:
+
+Desenvolva um algoritmo que multiplique os números de 1 a 9 pelos números 3 e 7. Você terá como multiplicando os números 3 e 7 e como multiplicadores os números de 1 a 9.
+
+Exiba todas as operações com seus respectivos resultados no console do seu navegador.
+De olho na dica 👀 : Para exibir as operações no console do seu navegador, você pode utilizar duas estruturas de repetição for aninhadas, que vão percorrer item a item. Para começar, você pode usar a constante multiplicador dada a seguir:
+
+const multiplicador = [3, 7];
+
+O console deve ter um retorno como esse:
+3 x 1 = 3
+3 x 2 = 6
+3 x 3 = 9
+3 x 4 = 12
+3 x 5 = 15
+3 x 6 = 18
+3 x 7 = 21
+3 x 8 = 24
+3 x 9 = 27
+7 x 1 = 7
+7 x 2 = 14
+7 x 3 = 21
+7 x 4 = 28
+7 x 5 = 35
+7 x 6 = 42
+7 x 7 = 49
+7 x 8 = 56
+7 x 9 = 63
+
+Quando for desenvolver o segundo for utilize os números de 1 a 9. 😉
+*/
+const multiplicador = [3, 7];
+const multiplicadores = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+            for (let multiTres = 0; multiTres < multiplicadores.length; multiTres = multiplicadores + 1)
+                console.log( multiTres + ' x ' + multiplicadores);
