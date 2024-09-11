@@ -119,7 +119,15 @@ Verifique se é uma fruta; caso seja, adicione ao seu carrinho;
 Vá para o próximo item da lista;
 Verifique se é uma fruta; caso seja, adicione ao seu carrinho.
 */
-const listaMercado = [' Maçã', ' Gengibre', ' Miojo', ' Biscoito/Bolacha', ' Banana', ' Feijão Carioquinha', ' Pasta de Dente'];
+const listaMercado = [
+    ' Maçã', 
+    ' Gengibre', 
+    ' Miojo', 
+    ' Biscoito/Bolacha', 
+    ' Banana', 
+    ' Feijão Carioquinha', 
+    ' Pasta de Dente'
+];
 const carinho = [];
 
      for (let posicaoNaLista = 0; posicaoNaLista < listaMercado.length; posicaoNaLista = posicaoNaLista + 1) {
