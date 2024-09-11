@@ -78,3 +78,4 @@ Mas agora que você terminou a contagem, temos que estourar o champagne né, sen
 for (let index = 10; index >= 1; index = index - 1){
     console.log(index);
 }
+console.log('UHULLLLLLLLLLLLLLLLLLLL FELIZ ANO NOVOOOOOOOO 🍾🎆🎆✨');
