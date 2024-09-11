@@ -174,7 +174,6 @@ const amizadesEmComum = [];
 /*
 Terceiro: Neste momento, você já está percorrendo o primeiro array (amizadesDaJuliana). Agora precisa percorrer também o segundo array (amizadesDoAdilson).
 Atenção ⚠️: Você precisa realizar as comparações entre os amizadesDaJuliana e os amizadesDoAdilson. Para que isso seja feito, é necessário que o segundo for esteja dentro do primeiro. Você irá pegar um amigo da Juliana e comparar com todas as amizades do Adilson em cada repetição do primeiro for.
-*/
 
 const amizadesDaJuliana = ['Erickson', 'Cleyton', 'Laura', 'Claudio', 'Sheila', 'Vinicius', 'Leticia'];
 const amizadesDoAdilson = ['Leticia', 'Guilherme', 'Cleyton', 'Ivan', 'Vinicius', 'Gisele'];
@@ -187,3 +186,25 @@ for (let indexDaJuliana = 0; indexDaJuliana < amizadesDaJuliana.length; indexDaJ
     console.log('Pessoa amiga do Adilson: ' + amizadesDoAdilson[indexDoAdilson]);
   }
 }
+
+Note que, a cada iteração do primeiro for, o segundo for percorre cada elemento do array amizadesDoAdilson.
+
+Com isso, você pode realizar a comparação dos amizadesDaJuliana com os amizadesDoAdilson, já que para cada pessoa amiga da Juliana você percorre todas as pessoas amigas do Adilson, podendo comparar um a um e verificar se eles são iguais. Caso sejam iguais, você irá armazenar essa pessoa amiga na lista amizadesEmComum.
+
+De olho na dica 👀 : Não se esqueça de utilizar o console.log() na variável amizadesEmComum para verificar se tudo deu certo mesmo 😅.
+
+*/
+
+const amizadesDaJuliana = ['Erickson', 'Cleyton', 'Laura', 'Claudio', 'Sheila', 'Vinicius', 'Leticia'];
+const amizadesDoAdilson = ['Leticia', 'Guilherme', 'Cleyton', 'Ivan', 'Vinicius', 'Gisele'];
+const amizadesEmComum = [];
+
+for (let indexDaJuliana = 0; indexDaJuliana < amizadesDaJuliana.length; indexDaJuliana = indexDaJuliana + 1) {
+  for (let indexDoAdilson = 0; indexDoAdilson < amizadesDoAdilson.length; indexDoAdilson = indexDoAdilson + 1) {
+    if (amizadesDaJuliana[indexDaJuliana] === amizadesDoAdilson[indexDoAdilson]){
+      amizadesEmComum.push(amizadesDoAdilson[indexDoAdilson]);
+    }
+  }
+}
+
+console.log(amizadesEmComum);
