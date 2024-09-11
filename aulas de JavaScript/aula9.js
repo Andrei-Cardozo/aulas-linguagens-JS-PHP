@@ -115,3 +115,79 @@ function imprimeSaudacao(parametro) {
   }
   
   console.log(imprimeSaudacao('Oi! Eu sou um parâmetro!')); // o valor do parâmetro é passado na chamada da função
+
+  // A função retornou a string 'Oi! Eu sou um parâmetro!', ou seja, no momento da declaração da função, o valor do parâmetro ainda não existe. O valor só é definido quando a função é chamada. Para imprimir a saudação, é a mesma estrutura. Veja:
+
+  function imprimeSaudacao(parametro) {
+    return parametro;
+  }
+  
+  console.log(imprimeSaudacao('Olá, Gisele!'));
+  
+//No exemplo acima, a função está recebendo toda a frase 'Olá, Gisele'. Mas reflita: como você poderia fazer para que o trecho 'Olá, ' permaneça dentro da declaração da função, passando apenas o nome da pessoa na chamada da função, por exemplo, imprimeSaudacao('Gisele')?
+
+// A reposta é: utilizando parâmetros! Observe o código abaixo para ver como isso ocorrendo na prática:
+
+function imprimeSaudacao(parametro) {
+    return 'Olá, ' + parametro + '!';
+  }
+  
+  console.log(imprimeSaudacao('Gisele'));
+
+  //O parâmetro pode ter qualquer nome, mas é importante que ele seja descritivo, assim como variáveis e funções. Como a função imprimeSaudacao é uma função responsável por cumprimentar alguém, você pode trocar o nome do parâmetro por nome. Veja:
+
+  function imprimeSaudacao(nome) {
+    const saudacao = 'Olá, ' + nome + '!';
+    return saudacao;
+  }
+  
+  console.log(imprimeSaudacao('Gisele'));
+
+  /*
+  Dessa maneira, seu código fica mais legível e facilita a compreensão do que sua função está retornando.
+
+Hora de testar 💻: Troque o nome 'Gisele' pelo seu. Não se esqueça de colocar entre aspas, indicando que o valor é uma string.
+
+Agora, imagine que você precisa que a função imprimeSaudacao cumprimente a pessoa com nome e sobrenome. Como você faria?
+
+As funções podem receber mais de um parâmetro e, para fazer isso, basta separá-los por vírgula na declaração e na hora de chamar a função. Veja o exemplo abaixo:
+
+*/
+
+function imprimeSaudacao(nome, sobrenome) {
+    const saudacao = 'Olá, ' + nome + ' ' + sobrenome + '!';
+    return saudacao;
+  }
+  
+  console.log(imprimeSaudacao('Andrei', 'Cardozo'));
+
+  /*
+  ⚠ Atenção: A ordem dos parâmetros importa! Ou seja, se você declarou o nome como primeiro parâmetro, ao chamar a função, o valor a ser passado primeiro é referente ao nome da pessoa.
+
+Até agora você utilizou strings como parâmetro, mas as funções podem receber outros tipos de dados como parâmetro. Por exemplo, você pode salvar o nome e o sobrenome da pessoa em uma variável e passar para a função, como no exemplo abaixo:
+
+function imprimeSaudacao(nome, sobrenome) {
+    const saudacao = 'Olá, ' + nome + ' ' + sobrenome + '!';
+    return saudacao;
+  }
+  
+  const nomeDaPessoa = 'Gisele';
+  const sobrenomeDaPessoa = 'Santin';
+  
+  console.log(imprimeSaudacao(nomeDaPessoa, sobrenomeDaPessoa));
+
+
+  Você também pode passar números. Por exemplo, imagine que você precisa cumprimentar a pessoa e dizer a idade dela. Observe o exemplo:
+
+*/
+function imprimeSaudacao(nome, sobrenome, idade) {
+    const saudacao = 'Olá, ' + nome + ' ' + sobrenome + '!';
+    const exibeIdade = 'Você tem ' + idade + ' anos.';
+  
+    return saudacao + ' ' + exibeIdade;
+  }
+  
+  const nomeDaPessoa = 'Gisele';
+  const sobrenomeDaPessoa = 'Santin';
+  
+  console.log(imprimeSaudacao(nomeDaPessoa, sobrenomeDaPessoa, 25));
