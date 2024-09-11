@@ -226,5 +226,5 @@ Exiba no console cada item de dentro do array.
 
 const numeros = [1, 2, 3, 4, 5];
     for (let indexNumeros = 0; indexNumeros < numeros.length; indexNumeros = indexNumeros + 1) {
-        console.log(indexNumeros);
+        console.log(numeros [indexNumeros]);
     }
