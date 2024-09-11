@@ -125,9 +125,10 @@ const carinho = [];
      for (let posicaoNaLista = 0; posicaoNaLista < listaMercado.length; posicaoNaLista = posicaoNaLista + 1) {
         if (listaMercado[posicaoNaLista] === 'Maçã' || listaMercado[posicaoNaLista] === 'Banana') {
             carinho.push(listaMercado[posicaoNaLista]);
-            console.log(carinho);
         }
      }
+
+     console.log(carinho);
 
 /*
 Anota aí 📣 : É possível usar o operador de incremento ++ em substituição à estrutura posicaoNaLista = posicaoNaLista + 1, ficando da seguinte forma: ++ posicaoNaLista. Mas esse operador adiciona somente uma unidade ao número.
