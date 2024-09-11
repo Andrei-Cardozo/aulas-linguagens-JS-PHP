@@ -126,7 +126,7 @@ const listaMercado = [
     ' Biscoito/Bolacha', 
     ' Banana', 
     ' Feijão Carioquinha', 
-    ' Pasta de Dente'
+    ' Pasta de Dente',
 ];
 const carrinho = [];
 
