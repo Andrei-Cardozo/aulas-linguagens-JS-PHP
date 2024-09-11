@@ -65,7 +65,7 @@ Quando uma função é chamada, ela executa o bloco de código de dentro dela e 
 Agora sim, a mensagem foi exibida! Isso porque o return é responsável por devolver a informação definida, ou seja, 'Olá, Gisele!'.
 
 ⚠ Atenção: O return interrompe a execução da função, isto é, ao utilizar o return, qualquer código abaixo dele dentro do mesmo bloco de código não vai ser executado. Observe:
-*/
+
 
 function imprimeSaudacao() {
     const saudacao = 'Olá, Gisele!';
@@ -77,3 +77,15 @@ function imprimeSaudacao() {
   }
   
   imprimeSaudacao();
+
+  //Anota aí 📣 : A palavra return indica qual é o retorno esperado e finaliza a execução da função.
+
+  Você pode continuar utilizando o console.log na chamada da função para testar o retorno:
+  */
+
+  function imprimeSaudacao() {
+    const saudacao = 'Olá, Gisele!';
+    return saudacao;
+  }
+  
+  console.log(imprimeSaudacao());
