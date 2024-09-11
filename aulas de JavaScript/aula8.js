@@ -312,5 +312,5 @@ const multiplicadores = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 const multiplique = [];
             for (let multiTres = 0; multiTres < multiplicadores.length; multiTres = multiplicadores + 1){
               multiplique.push(multiplicadores)
-              console.log(multiplicadores)
+              console.log(multiplique);
             }
