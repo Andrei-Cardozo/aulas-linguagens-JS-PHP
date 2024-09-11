@@ -297,4 +297,3 @@ function mediaDosNumeros(arrayNumeros){
         media = soma / arrayNumeros.length;
         return media;
 }
-console.log(mediaDosNumeros(1, 2, 3, 4, 5));
