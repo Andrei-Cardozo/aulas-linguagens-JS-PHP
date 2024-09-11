@@ -89,3 +89,29 @@ function imprimeSaudacao() {
   }
   
   console.log(imprimeSaudacao());
+
+  //Para deixar o código ainda mais organizado, você pode salvar a frase 'Olá, Gisele!' em uma variável e utilizar o return que o resultado será o mesmo.
+
+//Pronto! Agora você já sabe como declarar uma função, como executá-la e também como fazer com que ela retorne uma informação. Chegou a hora de aprender a enviar informações para a função por meio de parâmetros!
+
+//--------------------------------------------------Parâmetros---------------------------------------
+/*Parâmetros são informações - ou argumentos - passados para as funções com o objetivo deixar seu código mais dinâmico e organizado. É possível criar funções com nenhum ou vários parâmetros.
+
+Para decidir se é necessário utilizar parâmetros, você vai depender do objetivo da sua função. Por exemplo, se você desenvolver uma função com o objetivo de dar ‘Bom dia!’, o parâmetro não é necessário, porque essa informação não precisa ser alterada. Mas se você quer cumprimentar a pessoa que está executando o programa pelo nome, como a função imprimeSaudacao que retorna o texto 'Olá, Gisele!', é necessário que o nome recebido seja dinâmico, ou seja, é preciso que sua função receba um parâmetro que possibilite que o nome seja alterado.
+
+Agora, vamos ver na prática como utilizar parâmetros!
+
+Na declaração da função temos a palavra function, seguida do nome da função e dos parênteses. São eles que vão receber o parâmetro. Observe como isso acontece:
+
+function imprimeSaudacao(parametro) {
+  return parametro;
+}
+
+A função imprimeSaudacao está recebendo e retornando um parâmetro. Para que a função consiga retornar uma informação, é necessário informar qual valor o parâmetro vai receber. Para isso, é necessário passar esse valor na chamada da função. Execute o código abaixo no console do seu navegador:
+*/
+
+function imprimeSaudacao(parametro) {
+    return parametro;
+  }
+  
+  console.log(imprimeSaudacao('Oi! Eu sou um parâmetro!')); // o valor do parâmetro é passado na chamada da função
