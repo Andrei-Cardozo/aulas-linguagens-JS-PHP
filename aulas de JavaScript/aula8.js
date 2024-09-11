@@ -315,4 +315,4 @@ const multiplique = [];
             }
         }
 multiplique.push(multiplicadores);
-console.log(multiplicador + ' x ' + multiplique);
+console.log(multiplicadorzin + ' x ' + multiplique);
