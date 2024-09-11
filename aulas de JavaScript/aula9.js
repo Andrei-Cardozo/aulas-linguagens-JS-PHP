@@ -279,4 +279,4 @@ function clientePedido(numeroPedido) {
         return 'Número de pedido inválido!';
     }
 }
-console.log(clientePedido(4));
+console.log(clientePedido(5));
