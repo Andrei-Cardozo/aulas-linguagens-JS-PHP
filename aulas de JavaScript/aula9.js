@@ -221,3 +221,30 @@ function calculaDespesa(luz, internet) {
     return luz + internet;
 }
 console.log(calculaDespesa(230, 150));
+
+/*
+Você pode deixar o retorno da função mais detalhado:
+
+function calculaDespesa(luz, internet) {
+  const despesaTotal = luz + internet;
+
+  return 'Esse mês, a despesa foi de: R$ ' + despesaTotal;
+}
+
+console.log(calculaDespesa(230, 125));
+
+O resultado da conta do mês foi de R$ 355 reais. 😱
+
+Agora você pode utilizar funções para deixar seu código mais organizado, reaproveitável, e ainda pode calcular suas despesas! 🤩
+*/
+
+//----------------------------------------------------Exercícios------------------------------------------
+/*
+Crie uma função que exiba a frase: Vamo que vamo! 🚀
+Crie uma função mostrarFrase que retorne a frase ‘Vamo que vamo!’ quando chamada.
+*/
+function mostrarFrase(frase){
+    const mFrase = 'Vamo que vamo!';
+    return mFrase;
+};
+console.log(mostrarFrase(frase))
