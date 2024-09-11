@@ -119,24 +119,24 @@ Verifique se é uma fruta; caso seja, adicione ao seu carrinho;
 Vá para o próximo item da lista;
 Verifique se é uma fruta; caso seja, adicione ao seu carrinho.
 */
-const listaMercado = [
-    ' Maçã', 
-    ' Gengibre', 
-    ' Miojo', 
-    ' Biscoito/Bolacha', 
-    ' Banana', 
-    ' Feijão Carioquinha', 
-    ' Pasta de Dente'
-];
-const carinho = [];
-
-     for (let posicaoNaLista = 0; posicaoNaLista < listaMercado.length; posicaoNaLista = posicaoNaLista + 1) {
-        if (listaMercado[posicaoNaLista] === 'Maçã' || listaMercado[posicaoNaLista] === 'Banana') {
-            carinho.push(listaMercado[posicaoNaLista]);
-        }
-     }
-
-     console.log(carinho);
+const listaDeCompras = [
+    'maçã',
+    'gengibre',
+    'miojo',
+    'biscoito/bolacha',
+    'banana',
+    'feijão carioquinha',
+    'pasta de dente',
+  ];
+  const carrinho = [];
+  
+  for (let posicaoNaLista = 0; posicaoNaLista < listaDeCompras.length; posicaoNaLista = posicaoNaLista + 1) {
+    if (listaDeCompras[posicaoNaLista] === 'maçã' || listaDeCompras[posicaoNaLista] === 'banana') {
+      carrinho.push(listaDeCompras[posicaoNaLista]);
+    }
+  }
+  
+  console.log(carrinho); // ['maçã', 'banana']
 
 /*
 Anota aí 📣 : É possível usar o operador de incremento ++ em substituição à estrutura posicaoNaLista = posicaoNaLista + 1, ficando da seguinte forma: ++ posicaoNaLista. Mas esse operador adiciona somente uma unidade ao número.
