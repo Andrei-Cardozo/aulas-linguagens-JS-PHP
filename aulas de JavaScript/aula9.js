@@ -206,3 +206,18 @@ function imprimeSaudacao(nome, sobrenome, idade) {
   console.log(imprimeSaudacao('Alberto', 'Cavalcanti', 85));
   console.log(imprimeSaudacao('Cleyton', 'Oliveira', 32));
   console.log(imprimeSaudacao('Sandra', 'Cardoso', 58));
+
+  /*
+  Utilize o console.log para executar a função e testar o retorno de cada uma das funções
+
+Viu como parâmetros deixam as funções mais organizadas e dinâmicas? Você pode passar variáveis, strings, number e outros tipos de dados. Interessante, não é mesmo?
+
+Agora que você já aprendeu como passar parâmetros e já cumprimentou todas as pessoas que rodaram seu código, imagine que você quer calcular as despesas do mês, como luz e internet. Como você faria?
+
+Não se preocupe, a estrutura da função é a mesma, o que vai ser modificado é o nome e os parâmetros da função. Observe:
+*/
+
+function calculaDespesa(luz, internet) {
+    return luz + internet;
+}
+console.log(calculaDespesa(230, 150));
