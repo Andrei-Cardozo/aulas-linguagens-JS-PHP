@@ -322,3 +322,15 @@ Se o valor da variável inverter for true, uma nova lista invertida deve ser sal
 Se inverter não for true, então nada será atribuído na constante listaInvertida e o array de lista será mostrado no console.
 
 */
+let lista =[1, 2, 3, 4, 5]
+let inverter = true;
+let listaInvertida = [];
+
+const listaJogoFav = ['  Quebra-Cabeça', '  Tetris', '  Sudoku', '  Xadrez', '  Batalha Naval'];
+
+    if (inverter === true) {
+        listaInvertida = ['  Batalha Naval', '  Xadrez', '  Sudoku', '  Tetris', '  Quebra-Cabeça'];
+        console.log(listaInvertida);
+    } else {
+        console.log(listaJogoFav);
+    }
